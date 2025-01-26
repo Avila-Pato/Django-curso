@@ -6,7 +6,7 @@ def index(request):
     return HttpResponse("<h1> IndexPage</h1>")
 
 def hello(request, username):
-    return HttpResponse("<h1> Hello, World! </h1>")
+    return HttpResponse("<h1> Hello, %s </h1> " % username)
 
 def about(request):
     return HttpResponse("<h1> About </h1>")
