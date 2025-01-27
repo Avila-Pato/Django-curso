@@ -1,5 +1,8 @@
-{% extends 'layouts/base.html' %} {% block content %}
-<h1>{{title}}</h1>
+{% extends 'layouts/base.html' %} {% load static %} {% block content %}
+<h1>{{ title }}</h1>
+
+<!-- Usa la ruta correcta desde 'static' -->
+<img src="{% static '/JavaScript.png' %}" alt="" width="80" />
 <p>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nesciunt in
   cumque fuga quis voluptate minus eos dignissimos nostrum nisi id harum beatae,

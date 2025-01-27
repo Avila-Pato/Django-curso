@@ -1,26 +1,39 @@
-<!-- Todas las paginas que hereden deben estar en una carpeta layout -->
+{% load static %}
 
-<nav>
-  <ul style="display: flex; justify-content: space-around">
-    <li>
-      <a href="/">Home</a>
-    </li>
-    <li>
-      <a href="{% url 'projects' %}">Projects</a>
-    </li>
-    <li>
-      <a href="{% url 'tasks' %}">taks</a>
-    </li>
-    <li>
-      <a href="{% url 'about' %}">About</a>
-    </li>
-    <li>
-      <a href="{% url 'create_tasks' %}">create tasks</a>
-    </li>
-    <li>
-      <a href="{% url 'create_projects' %}">create projects</a>
-    </li>
-  </ul>
-</nav>
-<!--  esto sirve para la herencia y mostrar el contenido que se le pasa de otros templates -->
-{% block content %} {% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>django project</title>
+    <link rel="stylesheet" href="{% static 'styles/main.css' %}" />
+  </head>
+  <body>
+    <!-- Todas las paginas que hereden deben estar en una carpeta layout -->
+
+    <nav>
+      <ul style="display: flex; justify-content: space-around">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="{% url 'projects' %}">Projects</a>
+        </li>
+        <li>
+          <a href="{% url 'tasks' %}">taks</a>
+        </li>
+        <li>
+          <a href="{% url 'about' %}">About</a>
+        </li>
+        <li>
+          <a href="{% url 'create_tasks' %}">create tasks</a>
+        </li>
+        <li>
+          <a href="{% url 'create_projects' %}">create projects</a>
+        </li>
+      </ul>
+    </nav>
+    <!--  esto sirve para la herencia y mostrar el contenido que se le pasa de otros templates -->
+    {% block content %} {% endblock %}
+  </body>
+</html>
