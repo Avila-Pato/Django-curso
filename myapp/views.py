@@ -7,11 +7,13 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, "index.html")
+    title = "Welcome to Django course"
+    return render(request, "index.html", {"title": title})
 
 
 def about(request):
-    return render(request, "about.html")
+    username = "pato"
+    return render(request, "about.html", {"username": username})
 
 
 def hello(request, username):
@@ -20,7 +22,7 @@ def hello(request, username):
 
 def projects(request):
     projects = Project.objects.all()
-    return render(request, "projects.html")
+    return render(request, "projects.html", {"projects": projects})
 
 
 def tasks(
