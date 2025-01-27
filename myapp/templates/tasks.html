@@ -1,6 +1,9 @@
+{% extends "layouts/base.html" %} {% block content %}
+
 <h1>Tareas</h1>
 
 {% for task in tasks %}
+
 <div>
   <h2>
     {% if task.done == False %} ⏰ {% else %} ✅ {% endif %} {{task.title}}
@@ -11,4 +14,4 @@
   <button>Done</button>
 </div>
 
-{% endfor %}
+{% endfor %} {% endblock %}

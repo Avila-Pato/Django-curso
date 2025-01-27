@@ -1,0 +1,20 @@
+<!-- Todas las paginas que hereden deben estar en una carpeta layout -->
+
+<nav>
+  <ul style="display: flex; justify-content: space-around">
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/projects">Projects</a>
+    </li>
+    <li>
+      <a href="/tasks">taks</a>
+    </li>
+    <li>
+      <a href="/about">About</a>
+    </li>
+  </ul>
+</nav>
+<!--  esto sirve para la herencia y mostrar el contenido que se le pasa de otros templates -->
+{% block content %} {% endblock %}
