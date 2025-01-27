@@ -1,0 +1,23 @@
+# 🐍 Curso de Django: Desarrollo Web con Python
+
+En el curso de Django es  uno de los frameworks más potentes y populares para el desarrollo web con Python. Django es conocido por su capacidad de crear aplicaciones web de forma rápida y eficiente, y es ideal para aquellos que buscan desarrollar tanto el **backend** como el **frontend** de los proyectos utilizando Python. A lo largo de este curso, aprendí a crear aplicaciones completas con Django, aprovechando sus herramientas y características para facilitar el proceso de desarrollo.
+
+Comencé con una introducción general a Django, comprendiendo su propósito y lo que lo hace una opción tan popular para la creación de aplicaciones web. Una vez que entendí los conceptos básicos, el siguiente paso fue configurar el entorno de desarrollo, lo cual incluyó la instalación de las herramientas necesarias, como **Python** y **Django**, y la creación de un entorno virtual para gestionar las dependencias del proyecto de manera más eficiente. Esto es esencial para mantener las aplicaciones organizadas y evitar conflictos entre diferentes proyectos.
+
+El curso me guió a través de la creación de un proyecto Django desde cero. Aprendí cómo estructurar correctamente un proyecto y cómo organizar las distintas partes del mismo, como las aplicaciones y los archivos estáticos. A medida que avanzaba, me familiaricé con la estructura de un proyecto Django y los archivos esenciales que lo componen, como **settings.py**, **urls.py**, **models.py**, y **views.py**. Esta parte fue crucial para entender cómo Django gestiona las rutas, las vistas y cómo se comunican con las bases de datos.
+
+Uno de los aspectos clave que aprendí fue el uso del **ORM (Object-Relational Mapping)** de Django. A través de los modelos, pude conectar la aplicación con una base de datos **SQLite3**. Esto me permitió realizar operaciones básicas de bases de datos sin necesidad de escribir **SQL** manualmente, lo que hace que trabajar con bases de datos en Django sea mucho más sencillo y limpio. Además, aprendí a interactuar con la base de datos desde la consola de Django, lo que me permitió experimentar con el manejo de datos de forma más práctica.
+
+Otro tema importante que cubrimos en el curso fueron los **formularios en Django**. Desde formularios simples hasta formularios **POST** para enviar y recibir datos del usuario, entendí cómo manejar las entradas del usuario de manera eficiente y segura. Django facilita la validación de los datos, asegurando que la información ingresada sea correcta antes de almacenarla en la base de datos.
+
+También se profundizó en la importancia de la protección de rutas y el manejo de la **autenticación** y **autorización de usuarios**. Esto me permitió crear un sistema de administración básico utilizando el panel de administración de Django, una herramienta poderosa para gestionar el contenido y los usuarios de las aplicaciones sin tener que construir una interfaz desde cero.
+
+Uno de los aspectos más interesantes de Django es su motor de plantillas, que se utiliza para renderizar el contenido dinámico en las páginas web. A través del uso de **Jinja**, aprendí a manejar **loops**, **condicionales**, y la **herencia de plantillas**. Esto me permitió construir interfaces web limpias y reutilizables, lo cual es esencial cuando se desarrollan aplicaciones complejas.
+
+A lo largo del curso, también aprendí a manejar **archivos estáticos**, como imágenes, hojas de estilo y archivos JavaScript, y cómo servirlos correctamente en una aplicación Django. Esto es fundamental para la creación de sitios web dinámicos y bien estructurados.
+
+Al final del curso, pude aplicar lo aprendido al crear una **aplicación web completa** utilizando Django. Esta experiencia me permitió entender cómo integrar todas las funcionalidades del framework en un solo proyecto, desde la creación de modelos y vistas hasta la gestión de rutas y plantillas. También recibí recomendaciones adicionales, como el uso de **Git** y **GitHub** para el control de versiones, lo cual me ha sido útil para gestionar mis proyectos y colaborar en equipo.
+
+El código del curso está disponible en **GitHub**, lo que me permitió acceder a los ejemplos y seguir el curso de manera interactiva. Esta fue una excelente oportunidad para poner en práctica lo aprendido y explorar más sobre Django.
+
+En resumen, este curso me proporcionó una base sólida en Django, cubriendo desde la instalación y configuración del entorno hasta la creación de aplicaciones web completas. Gracias a los ejemplos prácticos y las explicaciones detalladas, ahora tengo la confianza para seguir explorando Django y utilizarlo en mis propios proyectos de desarrollo web.
