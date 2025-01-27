@@ -1,9 +1,11 @@
 {% extends 'layouts/base.html' %} {% block content %}
 
-<h1>create tasks</h1>
-<!-- csrf token sirve para proteger la informacion -->
-{% csrf_token %}
-<form action="POST">{{form}}</form>
-<button>Save</button>
+<h1>Crear Tarea</h1>
+
+<!-- Formulario para crear tareas -->
+<form method="POST">
+  {% csrf_token %} {{ form.as_p }}
+  <button type="submit">Guardar</button>
+</form>
 
 {% endblock %}
