@@ -15,6 +15,7 @@ class Task(models.Model):
     description = models.TextField()
     # CASCADE: si se elimina un proyecto se eliminan todas las tareas
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
+    done = models.BooleanField(default=False)
 
     def __str__(self):
         return self.title + " - " + self.project.name
